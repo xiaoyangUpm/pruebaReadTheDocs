@@ -31,5 +31,5 @@ The comprehensive API documentation for this Flutter project, generated using ``
 
 .. raw:: html
 
-   <a href="api/index.html" target="_blank">View API Documentation</a>
+   <a href="_api/index.html" target="_blank">View API Documentation</a>
 

@@ -16,7 +16,6 @@ author = 'xiaoyang peng'
 extensions = ['sphinx.ext.autodoc', 'sphinx.ext.viewcode', 'sphinx.ext.napoleon']
 
 templates_path = ['_templates']
-exclude_patterns = []
 
 
 
@@ -24,5 +23,11 @@ exclude_patterns = []
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = 'sphinx_rtd_theme'
-html_static_path = ['_static', 'api']  # 添加 'api' 目录
-html_extra_path = ['api']  # 添加这行
+# 添加这行，告诉 Sphinx 包含 _api 目录
+html_extra_path = ['_api']
+
+# 或者使用 html_static_path
+html_static_path = ['_static', '_api']
+
+# 排除 API 文档不被 Sphinx 处理
+exclude_patterns = ['_api/**']
