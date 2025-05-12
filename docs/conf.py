@@ -23,8 +23,6 @@ templates_path = ['_templates']
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = 'sphinx_rtd_theme'
-# 添加这行，告诉 Sphinx 包含 _api 目录
-html_extra_path = ['_api']
 
 # 或者使用 html_static_path
 html_static_path = ['_static', '_api']
