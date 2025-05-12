@@ -29,5 +29,3 @@ html_extra_path = ['_api']
 # 或者使用 html_static_path
 html_static_path = ['_static', '_api']
 
-# 排除 API 文档不被 Sphinx 处理
-exclude_patterns = ['_api/**']
